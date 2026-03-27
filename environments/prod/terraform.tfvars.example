@@ -1,0 +1,7 @@
+subscription_id = "00000000-0000-0000-0000-000000000000"
+admin_password  = "ChangeMe!StrongPassword123"
+
+# Optional overrides:
+# location            = "eastus2"
+# allowed_ssh_cidr    = "x.x.x.x/32"
+# vm_size             = "Standard_D2s_v5"
