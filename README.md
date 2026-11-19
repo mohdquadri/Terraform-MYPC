@@ -27,9 +27,9 @@ Terraform-MYPC/
    - `environments/dev`
    - `environments/prod`
 2. Copy `terraform.tfvars.example` to `terraform.tfvars`.
-3. Update values (at minimum: `subscription_id`, `admin_password`).
-4. Run:
+3. Sign in to Azure once with `az login` and make sure the correct subscription is selected.
+4. Update values in `terraform.tfvars` as needed (at minimum: `admin_password`).
+5. Run:
    - `terraform init`
    - `terraform plan`
    - `terraform apply`
-

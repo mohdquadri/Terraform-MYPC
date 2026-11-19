@@ -1,8 +1,3 @@
-variable "subscription_id" {
-  description = "Azure subscription ID."
-  type        = string
-}
-
 variable "location" {
   description = "Azure region."
   type        = string
@@ -60,7 +55,7 @@ variable "vm_name" {
 variable "vm_size" {
   description = "VM SKU."
   type        = string
-  default     = "Standard_D2s_v5"
+  default     = "Standard_B2s"
 }
 
 variable "admin_username" {
